@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 1; i <= 15; i++) {
             numbers.add(i);
         }
-        Collections.shuffle(numbers);
+       Collections.shuffle(numbers);
     }
 
 
@@ -123,18 +123,18 @@ public class MainActivity extends AppCompatActivity {
             button.setBackgroundResource(R.drawable.bg_button1);
             boshJoy = koordinate;
             if (isYutuq()) {
-                if (count == 0) {
-                    count1.setText("");
-                    count2.setText("");
-                    count3.setText("");
-                }
-                if (count > 0) {
-                    count1.setText(count + "");
-                }
+//                if (count == 0) {
+//                    count1.setText("");
+//                    count2.setText("");
+//                    count3.setText("");
+//                }
+//                if (count > 0) {
+//                    count1.setText(count + "");
+//                }
                 visiblitiy.setVisibility(View.VISIBLE);
                 chronometer.stop();
-                textScoreid.setText("" + t);
-                textTimeid.setText(chronometer.getText());
+                //textScoreid.setText("" + t);
+  //              textTimeid.setText(chronometer.getText());
 
             }
         }

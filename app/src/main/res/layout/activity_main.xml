@@ -316,59 +316,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="10dp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/urinishlar_soni"
-                    android:textColor="#000"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-                    android:typeface="serif" />
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:textColor="#4b3407"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-                    tools:ignore="RtlHardcoded"
-                    tools:text="25" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/sarflangan_vaqt"
-                    android:textColor="#000"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-                    android:typeface="serif" />
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:textColor="#4b3407"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-                    tools:ignore="RtlHardcoded"
-                    tools:text="25" />
-
-            </LinearLayout>
 
             <Button
                 android:layout_width="match_parent"

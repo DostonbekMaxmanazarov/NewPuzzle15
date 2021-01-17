@@ -11,3 +11,5 @@ O'yinni ishga tushirishda 1-Activitydagi O"YINGA KIRISH tugmasi orqali asosiy o'
 
 <img src="https://user-images.githubusercontent.com/77477995/104854148-1ddb5c80-5916-11eb-8c2b-25ea18c7c9a3.png" width="400" height="600">
 
+Biz o'yinda yutsak! Yutganligimiz haqidagi habarni olamiz.
+

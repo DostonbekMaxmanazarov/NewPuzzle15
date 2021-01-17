@@ -7,3 +7,6 @@ O'yinni ishga tushirishda 1-Activitydagi O"YINGA KIRISH tugmasi orqali asosiy o'
 
 <img src="https://user-images.githubusercontent.com/77477995/104853812-5e39db00-5914-11eb-952c-002c3579cfcb.png" width="400" height="600">
 
+
+<img src="https://user-images.githubusercontent.com/77477995/104853812-5e39db00-5914-11eb-952c-002c3579cfcb.png" width="400" height="600">
+

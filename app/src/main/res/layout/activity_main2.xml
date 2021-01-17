@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66a9fffd"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <Button
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button2"
+            android:onClick="Kirish"
+            android:text="@string/o_yinga_kirish"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:typeface="serif"
+
+            />
+
+        <Button
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button2"
+            android:onClick="Record"
+            android:text="@string/record"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:typeface="serif"
+
+            />
+
+        <Button
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button2"
+            android:onClick="Dastur"
+            android:text="@string/dastur_haqida"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:typeface="serif" />
+
+        <Button
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button2"
+            android:onClick="Chiqish2"
+            android:text="@string/chiqish"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:typeface="serif" />
+    </LinearLayout>
+</LinearLayout>

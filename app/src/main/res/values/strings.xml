@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Puzzle4</string>
+    <string name="score">Score</string>
+    <string name="core">80</string>
+    <string name="time">Time</string>
+    <string name="finish1">Finish</string>
+    <string name="restart1">Restart</string>
+    <string name="siz_g_olib_bo_ldingiz">Siz g\'olib bo\'ldingiz</string>
+    <string name="restart">Restart</string>
+    <string name="finish">Finish</string>
+    <string name="urinishlar_soni">Urinishlar soni</string>
+    <string name="sarflangan_vaqt">Sarflangan vaqt</string>
+    <string name="o_yinga_kirish">O\'yinga kirish</string>
+    <string name="dastur_haqida">Dastur haqida</string>
+    <string name="chiqish">Chiqish</string>
+    <string name="dasturchi">Dasturchi:Mahmanazarov Doston</string>
+    <string name="uyin">Assalomu alaykum aziz foydalanuvchiar: Puzzle o\'yini intelektual o\'yin bo\'lib, fikirlashni kuchaytirishga yordam beradi , o\'yinchini zeriktirmaydi. bu kabi o\'yinlar yaratilishi ijobiy tomonlama foydalidir.  Bu o\'yinda siz 1 dan 15 gacha bo\'lgan sonlarni tartibli saqlab chiqishingiz zarur.</string>
+    <string name="e_tiboringiz_uchun">E\'tiboringiz uchun rahmat</string>
+    <string name="recordlar">Recordlar</string>
+    <string name="urunishlar_soni">Urunishlar Soni</string>
+    <string name="record">Record</string>
+    <string name="pause">Pause</string>
+    <string name="boshlash">Boshlash</string>
+
+</resources>

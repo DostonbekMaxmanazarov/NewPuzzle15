@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView textTimeid;
     private ViewGroup visiblitiy;
     private Chronometer chronometer;
-    private TextView count1,count2,count3;
+    private TextView count1, count2, count3;
     private long base;
     private ArrayList<String> text;
     private ArrayList<Integer> numbers;
@@ -35,12 +36,24 @@ public class MainActivity extends AppCompatActivity {
         loadData();
         loadDataToView();
         setTitle("Puzzle 15");
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     private void loadButtons() {
-        count1=findViewById(R.id.count1);
-        count2=findViewById(R.id.count2);
-        count3=findViewById(R.id.count3);
+        count1 = findViewById(R.id.count1);
+        count2 = findViewById(R.id.count2);
+        count3 = findViewById(R.id.count3);
         ViewGroup viewGroup = findViewById(R.id.group);
         textScoreid = findViewById(R.id.textScoreid);
         textcount = findViewById(R.id.textcount);
@@ -110,12 +123,13 @@ public class MainActivity extends AppCompatActivity {
             button.setBackgroundResource(R.drawable.bg_button1);
             boshJoy = koordinate;
             if (isYutuq()) {
-                if (count==0){
+                if (count == 0) {
                     count1.setText("");
                     count2.setText("");
                     count3.setText("");
-                }if (count>0){
-                    count1.setText(count+"");
+                }
+                if (count > 0) {
+                    count1.setText(count + "");
                 }
                 visiblitiy.setVisibility(View.VISIBLE);
                 chronometer.stop();
